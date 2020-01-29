@@ -33,6 +33,10 @@ var edges = [
   { from: 2, to: 3, label: "部下"},
   { from: 2, to: 4, label: "部下"},
   { from: 2, to: 5, label: "部下"},
+  { from: 1, to: 14, label: "師匠"},
+  { from: 5, to: 14, label: "師匠"},
+  { from: 14, to: 1, label: "弟子"},
+  { from: 14, to: 5, label: "弟子"},
   { from: 2, to: 6, label: "妾"},
   { from: 2, to: 7, label: "元妾"},
   { from: 6, to: 10, label: "元夫婦", arrows: "to, from"},
@@ -46,12 +50,14 @@ var edges = [
   { from: 7, to: 12, label: "兄妹",  arrows: "to, from"},
   { from: 2, to: 10, label: "兄弟",  arrows: "to, from"},
   { from: 13, to: 15, label: "兄弟",  arrows: "to, from"},
+  { from: 6, to: 8, label: "兄弟弟子",  arrows: "to, from"},
   { from: 1, to: 13, label: "親子",  arrows: "to, from"},
   { from: 2, to: 13, label: "親子",  arrows: "to, from"},
   { from: 1, to: 15, label: "親子",  arrows: "to, from"},
   { from: 2, to: 15, label: "親子",  arrows: "to, from"},
   { from: 6, to: 16, label: "親子",  arrows: "to, from"},
   { from: 10, to: 16, label: "親子",  arrows: "to, from"}
+
 ];
 
 // create a network
